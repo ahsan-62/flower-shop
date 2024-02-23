@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background: rgba(229, 84, 115, 0.1);
+      }
+      .body-section {
+        justify-content: left;
+        background-image: url("images/pngwing 10.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 800px;
+        background-position-y: 110px;
+        background-size: 550px;
+      }
+      .body-title {
+        color: #272727;
+        font-size: 70px;
+        font-weight: 800;
+        padding: 197px 800px 0px 150px;
+        max-width: 708px;
+      }
+      .body-description {
+        color: rgba(39, 39, 39, 0.6);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 32px;
+        padding: 0px 800px 0px 150px;
+        max-width: 634px;
+      }
+      .body-button {
+        padding: 20px 43px;
+        gap: 10px;
+        border-radius: 8px;
+        background: #e55473;
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        margin: 32px 0px 147px 150px;
+      }
+
+      .feature-section {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+      }
+      .feature-title {
+        color: #272727;
+        text-align: center;
+        font-family: Lato;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-top: 178px;
+      }
+      .feature-description {
+        width: 594px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 24px;
+      }
+
+      .feature-flower-image {
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+      }
+      .feature-image {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+      }
+      .feature-image img {
+        width: 250px;
+        height: 280px;
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(167, 33, 98, 0.15);
+        margin: 0px 10px 0px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="body-section">
+            <h3 class="body-title">
+              Let's make beautiful flowers a part of your life.
+            </h3>
+            <p class="body-description">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters.
+            </p>
+            <button class="body-button" type="button">Shop Now</button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="feature-flower">
+          <div class="feature-section">
+            <h3 class="feature-title">Our Featured Flowers</h3>
+            <p class="feature-description">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div class="feature-flower-image">
+            <div class="feature-image">
+              <img src="images/pngwing 6.png" alt="flower" />
+              <img src="images/pngwing 5.png" alt="flower" />
+              <img src="images/pngwing 7.png" alt="flower" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
